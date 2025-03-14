@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'main', url: 'https://github.com/gurumurthy974/day2session.git'
+                git branch: 'main', url: 'https://github.com/Meghanajain55/demo.git'
             }
         }
 
